@@ -1,0 +1,92 @@
+TJSObjectPool
+v5
+r1
+cCheck dependencies
+cCompileC build/JSObjectPool.build/Debug/JSObjectPool.build/Objects-normal/x86_64/main.o /Users/johansundhage/Documents/03_XCode/JSObjectPool/JSObjectPool/main.c normal x86_64 c com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC build/JSObjectPool.build/Debug/JSObjectPool.build/Objects-normal/x86_64/JSHashmap.o /Users/johansundhage/Documents/03_XCode/JSObjectPool/JSObjectPool/JSHashmap.c normal x86_64 c com.apple.compilers.llvm.clang.1_0.compiler
+cLd /Users/johansundhage/Documents/03_XCode/JSObjectPool/build/Debug/JSObjectPool normal x86_64
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.8.sdk
+c000000005130312F00000000000000AA
+t1362112815
+s170
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.8.sdk/usr/include/stdio.h
+c0000000051B5EA880000000000004523
+t1370876552
+s17699
+
+N/Users/johansundhage/Documents/03_XCode/JSObjectPool/JSObjectPool/JSHashmap.c
+c00000000520896710000000000001394
+t1376294513
+s5012
+
+N/Users/johansundhage/Documents/03_XCode/JSObjectPool/JSObjectPool/main.c
+c00000000520898560000000000000119
+t1376294998
+s281
+i<stdio.h>
+
+N/Users/johansundhage/Documents/03_XCode/JSObjectPool/build/Debug/JSObjectPool
+t2
+s0
+
+N/Users/johansundhage/Documents/03_XCode/JSObjectPool/build/JSObjectPool.build/Debug/JSObjectPool.build/Objects-normal/x86_64/JSHashmap.o
+t2
+s0
+
+N/Users/johansundhage/Documents/03_XCode/JSObjectPool/build/JSObjectPool.build/Debug/JSObjectPool.build/Objects-normal/x86_64/JSObjectPool.LinkFileList
+c000000005208A163000000000000010D
+t1376297315
+s269
+
+N/Users/johansundhage/Documents/03_XCode/JSObjectPool/build/JSObjectPool.build/Debug/JSObjectPool.build/Objects-normal/x86_64/main.o
+t2
+s0
+
+CBuild AST from /Users/johansundhage/Documents/03_XCode/JSObjectPool/JSObjectPool/JSHashmap.c
+r0
+
+CBuild AST from /Users/johansundhage/Documents/03_XCode/JSObjectPool/JSObjectPool/main.c
+r0
+
+CCheck dependencies
+r0
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection18"Check dependencies815babe3d8b8b741^cfbaaee3d8b8b741^---0#1#0#--18"Check dependencies36"1DB4498D-A02F-4B30-81AE-E4F136F21F79-
+
+CCompileC build/JSObjectPool.build/Debug/JSObjectPool.build/Objects-normal/x86_64/JSHashmap.o /Users/johansundhage/Documents/03_XCode/JSObjectPool/JSObjectPool/JSHashmap.c normal x86_64 c com.apple.compilers.llvm.clang.1_0.compiler
+s397990115.684764
+e397990115.718646
+r1
+xCompileC
+xbuild/JSObjectPool.build/Debug/JSObjectPool.build/Objects-normal/x86_64/JSHashmap.o
+x/Users/johansundhage/Documents/03_XCode/JSObjectPool/JSObjectPool/JSHashmap.c
+xnormal
+xx86_64
+xc
+xcom.apple.compilers.llvm.clang.1_0.compiler
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection85"Compile /Users/johansundhage/Documents/03_XCode/JSObjectPool/JSObjectPool/JSHashmap.c2783afe3d8b8b741^cbf8b7e3d8b8b741^---0#0#0#-19%DVTDocumentLocation2@93"file://localhost/Users/johansundhage/Documents/03_XCode/JSObjectPool/JSObjectPool/JSHashmap.c0000000000000000^2892"CompileC build/JSObjectPool.build/Debug/JSObjectPool.build/Objects-normal/x86_64/JSHashmap.o JSObjectPool/JSHashmap.c normal x86_64 c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/johansundhage/Documents/03_XCode/JSObjectPool    setenv LANG en_US.US-ASCII    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x c -arch x86_64 -fmessage-length=0 -std=gnu99 -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wreturn-type -Wformat -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wempty-body -Wuninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wconstant-conversion -Wint-conversion -Wenum-conversion -Wshorten-64-to-32 -Wpointer-sign -Wno-newline-eof -DDEBUG=1 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.8.sdk -fasm-blocks -fstrict-aliasing -Wdeprecated-declarations -mmacosx-version-min=10.8 -g -Wno-sign-conversion -iquote /Users/johansundhage/Documents/03_XCode/JSObjectPool/build/JSObjectPool.build/Debug/JSObjectPool.build/JSObjectPool-generated-files.hmap -I/Users/johansundhage/Documents/03_XCode/JSObjectPool/build/JSObjectPool.build/Debug/JSObjectPool.build/JSObjectPool-own-target-headers.hmap -I/Users/johansundhage/Documents/03_XCode/JSObjectPool/build/JSObjectPool.build/Debug/JSObjectPool.build/JSObjectPool-all-target-headers.hmap -iquote /Users/johansundhage/Documents/03_XCode/JSObjectPool/build/JSObjectPool.build/Debug/JSObjectPool.build/JSObjectPool-project-headers.hmap -I/Users/johansundhage/Documents/03_XCode/JSObjectPool/build/Debug/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Users/johansundhage/Documents/03_XCode/JSObjectPool/build/JSObjectPool.build/Debug/JSObjectPool.build/DerivedSources/x86_64 -I/Users/johansundhage/Documents/03_XCode/JSObjectPool/build/JSObjectPool.build/Debug/JSObjectPool.build/DerivedSources -F/Users/johansundhage/Documents/03_XCode/JSObjectPool/build/Debug -MMD -MT dependencies -MF /Users/johansundhage/Documents/03_XCode/JSObjectPool/build/JSObjectPool.build/Debug/JSObjectPool.build/Objects-normal/x86_64/JSHashmap.d --serialize-diagnostics /Users/johansundhage/Documents/03_XCode/JSObjectPool/build/JSObjectPool.build/Debug/JSObjectPool.build/Objects-normal/x86_64/JSHashmap.dia -c /Users/johansundhage/Documents/03_XCode/JSObjectPool/JSObjectPool/JSHashmap.c -o /Users/johansundhage/Documents/03_XCode/JSObjectPool/build/JSObjectPool.build/Debug/JSObjectPool.build/Objects-normal/x86_64/JSHashmap.o36"0F423793-2B88-4A69-83D2-20912742000C-
+
+CCompileC build/JSObjectPool.build/Debug/JSObjectPool.build/Objects-normal/x86_64/main.o /Users/johansundhage/Documents/03_XCode/JSObjectPool/JSObjectPool/main.c normal x86_64 c com.apple.compilers.llvm.clang.1_0.compiler
+s397990115.684761
+e397990115.707412
+r1
+xCompileC
+xbuild/JSObjectPool.build/Debug/JSObjectPool.build/Objects-normal/x86_64/main.o
+x/Users/johansundhage/Documents/03_XCode/JSObjectPool/JSObjectPool/main.c
+xnormal
+xx86_64
+xc
+xcom.apple.compilers.llvm.clang.1_0.compiler
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection80"Compile /Users/johansundhage/Documents/03_XCode/JSObjectPool/JSObjectPool/main.cf582afe3d8b8b741^5d18b5e3d8b8b741^---0#0#0#-19%DVTDocumentLocation2@88"file://localhost/Users/johansundhage/Documents/03_XCode/JSObjectPool/JSObjectPool/main.c0000000000000000^2862"CompileC build/JSObjectPool.build/Debug/JSObjectPool.build/Objects-normal/x86_64/main.o JSObjectPool/main.c normal x86_64 c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/johansundhage/Documents/03_XCode/JSObjectPool    setenv LANG en_US.US-ASCII    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x c -arch x86_64 -fmessage-length=0 -std=gnu99 -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wreturn-type -Wformat -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wempty-body -Wuninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wconstant-conversion -Wint-conversion -Wenum-conversion -Wshorten-64-to-32 -Wpointer-sign -Wno-newline-eof -DDEBUG=1 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.8.sdk -fasm-blocks -fstrict-aliasing -Wdeprecated-declarations -mmacosx-version-min=10.8 -g -Wno-sign-conversion -iquote /Users/johansundhage/Documents/03_XCode/JSObjectPool/build/JSObjectPool.build/Debug/JSObjectPool.build/JSObjectPool-generated-files.hmap -I/Users/johansundhage/Documents/03_XCode/JSObjectPool/build/JSObjectPool.build/Debug/JSObjectPool.build/JSObjectPool-own-target-headers.hmap -I/Users/johansundhage/Documents/03_XCode/JSObjectPool/build/JSObjectPool.build/Debug/JSObjectPool.build/JSObjectPool-all-target-headers.hmap -iquote /Users/johansundhage/Documents/03_XCode/JSObjectPool/build/JSObjectPool.build/Debug/JSObjectPool.build/JSObjectPool-project-headers.hmap -I/Users/johansundhage/Documents/03_XCode/JSObjectPool/build/Debug/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Users/johansundhage/Documents/03_XCode/JSObjectPool/build/JSObjectPool.build/Debug/JSObjectPool.build/DerivedSources/x86_64 -I/Users/johansundhage/Documents/03_XCode/JSObjectPool/build/JSObjectPool.build/Debug/JSObjectPool.build/DerivedSources -F/Users/johansundhage/Documents/03_XCode/JSObjectPool/build/Debug -MMD -MT dependencies -MF /Users/johansundhage/Documents/03_XCode/JSObjectPool/build/JSObjectPool.build/Debug/JSObjectPool.build/Objects-normal/x86_64/main.d --serialize-diagnostics /Users/johansundhage/Documents/03_XCode/JSObjectPool/build/JSObjectPool.build/Debug/JSObjectPool.build/Objects-normal/x86_64/main.dia -c /Users/johansundhage/Documents/03_XCode/JSObjectPool/JSObjectPool/main.c -o /Users/johansundhage/Documents/03_XCode/JSObjectPool/build/JSObjectPool.build/Debug/JSObjectPool.build/Objects-normal/x86_64/main.o36"77CA9E2F-78C7-432D-950B-5CD0C1F10E4F-
+
+CLd /Users/johansundhage/Documents/03_XCode/JSObjectPool/build/Debug/JSObjectPool normal x86_64
+s397990115.725650
+e397990115.744107
+r1
+xLd
+x/Users/johansundhage/Documents/03_XCode/JSObjectPool/build/Debug/JSObjectPool
+xnormal
+xx86_64
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection82"Link /Users/johansundhage/Documents/03_XCode/JSObjectPool/build/Debug/JSObjectPoole5d5b9e3d8b8b741^c37fbee3d8b8b741^---0#0#0#--764"Ld build/Debug/JSObjectPool normal x86_64    cd /Users/johansundhage/Documents/03_XCode/JSObjectPool    setenv MACOSX_DEPLOYMENT_TARGET 10.8    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -arch x86_64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.8.sdk -L/Users/johansundhage/Documents/03_XCode/JSObjectPool/build/Debug -F/Users/johansundhage/Documents/03_XCode/JSObjectPool/build/Debug -filelist /Users/johansundhage/Documents/03_XCode/JSObjectPool/build/JSObjectPool.build/Debug/JSObjectPool.build/Objects-normal/x86_64/JSObjectPool.LinkFileList -mmacosx-version-min=10.8 -o /Users/johansundhage/Documents/03_XCode/JSObjectPool/build/Debug/JSObjectPool36"7F658A4B-5EC6-49B9-9C49-288E23A21C16-
+
