@@ -1,0 +1,3 @@
+[submodule "JSHashmap"]
+	path = JSHashmap
+	url = git://github.com/sundhage/JSHashmap.git
