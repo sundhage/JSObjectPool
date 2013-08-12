@@ -2,10 +2,10 @@ TJSObjectPool
 v5
 r1
 cCheck dependencies
-cCompileC build/JSObjectPool.build/Debug/JSObjectPool.build/Objects-normal/x86_64/main.o /Users/johansundhage/Documents/03_XCode/JSObjectPool/JSObjectPool/main.c normal x86_64 c com.apple.compilers.llvm.clang.1_0.compiler
-cCompileC build/JSObjectPool.build/Debug/JSObjectPool.build/Objects-normal/x86_64/JSHashmap.o /Users/johansundhage/Documents/03_XCode/JSObjectPool/JSObjectPool/JSHashmap.c normal x86_64 c com.apple.compilers.llvm.clang.1_0.compiler
-cCompileC build/JSObjectPool.build/Debug/JSObjectPool.build/Objects-normal/x86_64/JSObjectPool.o /Users/johansundhage/Documents/03_XCode/JSObjectPool/JSObjectPool/JSObjectPool.c normal x86_64 c com.apple.compilers.llvm.clang.1_0.compiler
-cLd /Users/johansundhage/Documents/03_XCode/JSObjectPool/build/Debug/JSObjectPool normal x86_64
+cCompileC build/JSObjectPool.build/Debug/JSObjectPool.build/Objects-normal/x86_64/JSHashmap.o /Users/johansundhage/Documents/01_GIT_Code_Projects/JSObjectPool/JSHashmap/JSHashmap/JSHashmap.c normal x86_64 c com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC build/JSObjectPool.build/Debug/JSObjectPool.build/Objects-normal/x86_64/JSObjectPool.o /Users/johansundhage/Documents/01_GIT_Code_Projects/JSObjectPool/JSObjectPool/JSObjectPool.c normal x86_64 c com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC build/JSObjectPool.build/Debug/JSObjectPool.build/Objects-normal/x86_64/main.o /Users/johansundhage/Documents/01_GIT_Code_Projects/JSObjectPool/JSObjectPool/main.c normal x86_64 c com.apple.compilers.llvm.clang.1_0.compiler
+cLd /Users/johansundhage/Documents/01_GIT_Code_Projects/JSObjectPool/build/Debug/JSObjectPool normal x86_64
 
 N/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.8.sdk
 c000000005130312F00000000000000AA
@@ -22,15 +22,64 @@ c0000000051B5EA880000000000003089
 t1370876552
 s12425
 
+N/Users/johansundhage/Documents/01_GIT_Code_Projects/JSObjectPool/JSHashmap/JSHashmap/JSHashmap.c
+c000000005208BF9B00000000000013C8
+t1376305051
+s5064
+
+N/Users/johansundhage/Documents/01_GIT_Code_Projects/JSObjectPool/JSHashmap/JSHashmap/JSHashmap.h
+c000000005208BDBE0000000000000717
+t1376304574
+s1815
+
+N/Users/johansundhage/Documents/01_GIT_Code_Projects/JSObjectPool/JSObjectPool/JSObjectPool.c
+c000000005208B61A0000000000000BEF
+t1376302618
+s3055
+
+N/Users/johansundhage/Documents/01_GIT_Code_Projects/JSObjectPool/JSObjectPool/JSObjectPool.h
+c000000005208BE4C000000000000064E
+t1376304716
+s1614
+
+N/Users/johansundhage/Documents/01_GIT_Code_Projects/JSObjectPool/JSObjectPool/main.c
+c000000005208B6CC0000000000000720
+t1376302796
+s1824
+i<stdio.h>
+i<stdlib.h>
+i"JSObjectPool.h"
+
+N/Users/johansundhage/Documents/01_GIT_Code_Projects/JSObjectPool/build/Debug/JSObjectPool
+t1376304716
+s16848
+
+N/Users/johansundhage/Documents/01_GIT_Code_Projects/JSObjectPool/build/JSObjectPool.build/Debug/JSObjectPool.build/Objects-normal/x86_64/JSHashmap.o
+t1376304716
+s12344
+
+N/Users/johansundhage/Documents/01_GIT_Code_Projects/JSObjectPool/build/JSObjectPool.build/Debug/JSObjectPool.build/Objects-normal/x86_64/JSObjectPool.LinkFileList
+c000000005208BE4C00000000000001BD
+t1376304716
+s445
+
+N/Users/johansundhage/Documents/01_GIT_Code_Projects/JSObjectPool/build/JSObjectPool.build/Debug/JSObjectPool.build/Objects-normal/x86_64/JSObjectPool.o
+t1376304716
+s7792
+
+N/Users/johansundhage/Documents/01_GIT_Code_Projects/JSObjectPool/build/JSObjectPool.build/Debug/JSObjectPool.build/Objects-normal/x86_64/main.o
+t1376304716
+s7204
+
 N/Users/johansundhage/Documents/03_XCode/JSObjectPool/JSObjectPool/JSHashmap.c
-c000000005208B4FB00000000000013FE
-t1376302331
-s5118
+c00000000000000000000000000000000
+t2
+s0
 
 N/Users/johansundhage/Documents/03_XCode/JSObjectPool/JSObjectPool/JSHashmap.h
-c000000005208A2E50000000000000728
-t1376297701
-s1832
+c00000000000000000000000000000000
+t2
+s0
 
 N/Users/johansundhage/Documents/03_XCode/JSObjectPool/JSObjectPool/JSObjectPool.c
 c000000005208B61A0000000000000BEF
@@ -38,9 +87,9 @@ t1376302618
 s3055
 
 N/Users/johansundhage/Documents/03_XCode/JSObjectPool/JSObjectPool/JSObjectPool.h
-c000000005208AB7E000000000000047A
-t1376299902
-s1146
+c000000005208B859000000000000064E
+t1376303193
+s1614
 
 N/Users/johansundhage/Documents/03_XCode/JSObjectPool/JSObjectPool/main.c
 c000000005208B6CC0000000000000720
@@ -71,6 +120,15 @@ N/Users/johansundhage/Documents/03_XCode/JSObjectPool/build/JSObjectPool.build/D
 t1376302748
 s7012
 
+CBuild AST from /Users/johansundhage/Documents/01_GIT_Code_Projects/JSObjectPool/JSHashmap/JSHashmap/JSHashmap.c
+r0
+
+CBuild AST from /Users/johansundhage/Documents/01_GIT_Code_Projects/JSObjectPool/JSObjectPool/JSObjectPool.c
+r0
+
+CBuild AST from /Users/johansundhage/Documents/01_GIT_Code_Projects/JSObjectPool/JSObjectPool/main.c
+r0
+
 CBuild AST from /Users/johansundhage/Documents/03_XCode/JSObjectPool/JSObjectPool/JSHashmap.c
 r0
 
@@ -82,7 +140,20 @@ r0
 
 CCheck dependencies
 r0
-lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection18"Check dependencies7aaa834deeb8b741^f3738b4deeb8b741^---0#1#0#--18"Check dependencies36"B7015DAA-4904-4226-8056-9A881EFD66FE-
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection18"Check dependencies22338f23f7b8b741^14598f23f7b8b741^---0#1#0#--18"Check dependencies36"A9EE4DF9-2818-4D76-AAD1-1DAD502293B2-
+
+CCompileC build/JSObjectPool.build/Debug/JSObjectPool.build/Objects-normal/x86_64/JSHashmap.o /Users/johansundhage/Documents/01_GIT_Code_Projects/JSObjectPool/JSHashmap/JSHashmap/JSHashmap.c normal x86_64 c com.apple.compilers.llvm.clang.1_0.compiler
+s397997859.562024
+e397997859.588412
+r1
+xCompileC
+xbuild/JSObjectPool.build/Debug/JSObjectPool.build/Objects-normal/x86_64/JSHashmap.o
+x/Users/johansundhage/Documents/01_GIT_Code_Projects/JSObjectPool/JSHashmap/JSHashmap/JSHashmap.c
+xnormal
+xx86_64
+xc
+xcom.apple.compilers.llvm.clang.1_0.compiler
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection104"Compile /Users/johansundhage/Documents/01_GIT_Code_Projects/JSObjectPool/JSHashmap/JSHashmap/JSHashmap.c16f78f23f7b8b741^94a19623f7b8b741^---0#0#0#-19%DVTDocumentLocation2@112"file://localhost/Users/johansundhage/Documents/01_GIT_Code_Projects/JSObjectPool/JSHashmap/JSHashmap/JSHashmap.c0000000000000000^3062"CompileC build/JSObjectPool.build/Debug/JSObjectPool.build/Objects-normal/x86_64/JSHashmap.o JSHashmap/JSHashmap/JSHashmap.c normal x86_64 c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/johansundhage/Documents/01_GIT_Code_Projects/JSObjectPool    setenv LANG en_US.US-ASCII    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x c -arch x86_64 -fmessage-length=0 -std=gnu99 -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wreturn-type -Wformat -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wempty-body -Wuninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wconstant-conversion -Wint-conversion -Wenum-conversion -Wshorten-64-to-32 -Wpointer-sign -Wno-newline-eof -DDEBUG=1 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.8.sdk -fasm-blocks -fstrict-aliasing -Wdeprecated-declarations -mmacosx-version-min=10.8 -g -Wno-sign-conversion -iquote /Users/johansundhage/Documents/01_GIT_Code_Projects/JSObjectPool/build/JSObjectPool.build/Debug/JSObjectPool.build/JSObjectPool-generated-files.hmap -I/Users/johansundhage/Documents/01_GIT_Code_Projects/JSObjectPool/build/JSObjectPool.build/Debug/JSObjectPool.build/JSObjectPool-own-target-headers.hmap -I/Users/johansundhage/Documents/01_GIT_Code_Projects/JSObjectPool/build/JSObjectPool.build/Debug/JSObjectPool.build/JSObjectPool-all-target-headers.hmap -iquote /Users/johansundhage/Documents/01_GIT_Code_Projects/JSObjectPool/build/JSObjectPool.build/Debug/JSObjectPool.build/JSObjectPool-project-headers.hmap -I/Users/johansundhage/Documents/01_GIT_Code_Projects/JSObjectPool/build/Debug/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Users/johansundhage/Documents/01_GIT_Code_Projects/JSObjectPool/build/JSObjectPool.build/Debug/JSObjectPool.build/DerivedSources/x86_64 -I/Users/johansundhage/Documents/01_GIT_Code_Projects/JSObjectPool/build/JSObjectPool.build/Debug/JSObjectPool.build/DerivedSources -F/Users/johansundhage/Documents/01_GIT_Code_Projects/JSObjectPool/build/Debug -MMD -MT dependencies -MF /Users/johansundhage/Documents/01_GIT_Code_Projects/JSObjectPool/build/JSObjectPool.build/Debug/JSObjectPool.build/Objects-normal/x86_64/JSHashmap.d --serialize-diagnostics /Users/johansundhage/Documents/01_GIT_Code_Projects/JSObjectPool/build/JSObjectPool.build/Debug/JSObjectPool.build/Objects-normal/x86_64/JSHashmap.dia -c /Users/johansundhage/Documents/01_GIT_Code_Projects/JSObjectPool/JSHashmap/JSHashmap/JSHashmap.c -o /Users/johansundhage/Documents/01_GIT_Code_Projects/JSObjectPool/build/JSObjectPool.build/Debug/JSObjectPool.build/Objects-normal/x86_64/JSHashmap.o36"94095DB6-CF74-4DCE-9260-8452CC11A097-
 
 CCompileC build/JSObjectPool.build/Debug/JSObjectPool.build/Objects-normal/x86_64/JSHashmap.o /Users/johansundhage/Documents/03_XCode/JSObjectPool/JSObjectPool/JSHashmap.c normal x86_64 c com.apple.compilers.llvm.clang.1_0.compiler
 s397995131.565408
@@ -97,6 +168,19 @@ xc
 xcom.apple.compilers.llvm.clang.1_0.compiler
 lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection85"Compile /Users/johansundhage/Documents/03_XCode/JSObjectPool/JSObjectPool/JSHashmap.ca6d1907becb8b741^b66a977becb8b741^---0#0#0#-19%DVTDocumentLocation2@93"file://localhost/Users/johansundhage/Documents/03_XCode/JSObjectPool/JSObjectPool/JSHashmap.c0000000000000000^2892"CompileC build/JSObjectPool.build/Debug/JSObjectPool.build/Objects-normal/x86_64/JSHashmap.o JSObjectPool/JSHashmap.c normal x86_64 c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/johansundhage/Documents/03_XCode/JSObjectPool    setenv LANG en_US.US-ASCII    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x c -arch x86_64 -fmessage-length=0 -std=gnu99 -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wreturn-type -Wformat -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wempty-body -Wuninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wconstant-conversion -Wint-conversion -Wenum-conversion -Wshorten-64-to-32 -Wpointer-sign -Wno-newline-eof -DDEBUG=1 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.8.sdk -fasm-blocks -fstrict-aliasing -Wdeprecated-declarations -mmacosx-version-min=10.8 -g -Wno-sign-conversion -iquote /Users/johansundhage/Documents/03_XCode/JSObjectPool/build/JSObjectPool.build/Debug/JSObjectPool.build/JSObjectPool-generated-files.hmap -I/Users/johansundhage/Documents/03_XCode/JSObjectPool/build/JSObjectPool.build/Debug/JSObjectPool.build/JSObjectPool-own-target-headers.hmap -I/Users/johansundhage/Documents/03_XCode/JSObjectPool/build/JSObjectPool.build/Debug/JSObjectPool.build/JSObjectPool-all-target-headers.hmap -iquote /Users/johansundhage/Documents/03_XCode/JSObjectPool/build/JSObjectPool.build/Debug/JSObjectPool.build/JSObjectPool-project-headers.hmap -I/Users/johansundhage/Documents/03_XCode/JSObjectPool/build/Debug/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Users/johansundhage/Documents/03_XCode/JSObjectPool/build/JSObjectPool.build/Debug/JSObjectPool.build/DerivedSources/x86_64 -I/Users/johansundhage/Documents/03_XCode/JSObjectPool/build/JSObjectPool.build/Debug/JSObjectPool.build/DerivedSources -F/Users/johansundhage/Documents/03_XCode/JSObjectPool/build/Debug -MMD -MT dependencies -MF /Users/johansundhage/Documents/03_XCode/JSObjectPool/build/JSObjectPool.build/Debug/JSObjectPool.build/Objects-normal/x86_64/JSHashmap.d --serialize-diagnostics /Users/johansundhage/Documents/03_XCode/JSObjectPool/build/JSObjectPool.build/Debug/JSObjectPool.build/Objects-normal/x86_64/JSHashmap.dia -c /Users/johansundhage/Documents/03_XCode/JSObjectPool/JSObjectPool/JSHashmap.c -o /Users/johansundhage/Documents/03_XCode/JSObjectPool/build/JSObjectPool.build/Debug/JSObjectPool.build/Objects-normal/x86_64/JSHashmap.o36"1155138D-D014-4239-B1D0-95EA13B7CEA7-
 
+CCompileC build/JSObjectPool.build/Debug/JSObjectPool.build/Objects-normal/x86_64/JSObjectPool.o /Users/johansundhage/Documents/01_GIT_Code_Projects/JSObjectPool/JSObjectPool/JSObjectPool.c normal x86_64 c com.apple.compilers.llvm.clang.1_0.compiler
+s397997516.896262
+e397997516.922254
+r1
+xCompileC
+xbuild/JSObjectPool.build/Debug/JSObjectPool.build/Objects-normal/x86_64/JSObjectPool.o
+x/Users/johansundhage/Documents/01_GIT_Code_Projects/JSObjectPool/JSObjectPool/JSObjectPool.c
+xnormal
+xx86_64
+xc
+xcom.apple.compilers.llvm.clang.1_0.compiler
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection100"Compile /Users/johansundhage/Documents/01_GIT_Code_Projects/JSObjectPool/JSObjectPool/JSObjectPool.c1591e5ccf5b8b741^a418ecccf5b8b741^---0#0#0#-19%DVTDocumentLocation2@108"file://localhost/Users/johansundhage/Documents/01_GIT_Code_Projects/JSObjectPool/JSObjectPool/JSObjectPool.c0000000000000000^3066"CompileC build/JSObjectPool.build/Debug/JSObjectPool.build/Objects-normal/x86_64/JSObjectPool.o JSObjectPool/JSObjectPool.c normal x86_64 c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/johansundhage/Documents/01_GIT_Code_Projects/JSObjectPool    setenv LANG en_US.US-ASCII    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x c -arch x86_64 -fmessage-length=0 -std=gnu99 -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wreturn-type -Wformat -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wempty-body -Wuninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wconstant-conversion -Wint-conversion -Wenum-conversion -Wshorten-64-to-32 -Wpointer-sign -Wno-newline-eof -DDEBUG=1 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.8.sdk -fasm-blocks -fstrict-aliasing -Wdeprecated-declarations -mmacosx-version-min=10.8 -g -Wno-sign-conversion -iquote /Users/johansundhage/Documents/01_GIT_Code_Projects/JSObjectPool/build/JSObjectPool.build/Debug/JSObjectPool.build/JSObjectPool-generated-files.hmap -I/Users/johansundhage/Documents/01_GIT_Code_Projects/JSObjectPool/build/JSObjectPool.build/Debug/JSObjectPool.build/JSObjectPool-own-target-headers.hmap -I/Users/johansundhage/Documents/01_GIT_Code_Projects/JSObjectPool/build/JSObjectPool.build/Debug/JSObjectPool.build/JSObjectPool-all-target-headers.hmap -iquote /Users/johansundhage/Documents/01_GIT_Code_Projects/JSObjectPool/build/JSObjectPool.build/Debug/JSObjectPool.build/JSObjectPool-project-headers.hmap -I/Users/johansundhage/Documents/01_GIT_Code_Projects/JSObjectPool/build/Debug/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Users/johansundhage/Documents/01_GIT_Code_Projects/JSObjectPool/build/JSObjectPool.build/Debug/JSObjectPool.build/DerivedSources/x86_64 -I/Users/johansundhage/Documents/01_GIT_Code_Projects/JSObjectPool/build/JSObjectPool.build/Debug/JSObjectPool.build/DerivedSources -F/Users/johansundhage/Documents/01_GIT_Code_Projects/JSObjectPool/build/Debug -MMD -MT dependencies -MF /Users/johansundhage/Documents/01_GIT_Code_Projects/JSObjectPool/build/JSObjectPool.build/Debug/JSObjectPool.build/Objects-normal/x86_64/JSObjectPool.d --serialize-diagnostics /Users/johansundhage/Documents/01_GIT_Code_Projects/JSObjectPool/build/JSObjectPool.build/Debug/JSObjectPool.build/Objects-normal/x86_64/JSObjectPool.dia -c /Users/johansundhage/Documents/01_GIT_Code_Projects/JSObjectPool/JSObjectPool/JSObjectPool.c -o /Users/johansundhage/Documents/01_GIT_Code_Projects/JSObjectPool/build/JSObjectPool.build/Debug/JSObjectPool.build/Objects-normal/x86_64/JSObjectPool.o36"5D6A90FE-8411-4FF9-A3C6-5F9C41A28FB9-
+
 CCompileC build/JSObjectPool.build/Debug/JSObjectPool.build/Objects-normal/x86_64/JSObjectPool.o /Users/johansundhage/Documents/03_XCode/JSObjectPool/JSObjectPool/JSObjectPool.c normal x86_64 c com.apple.compilers.llvm.clang.1_0.compiler
 s397995427.288214
 e397995427.314336
@@ -109,6 +193,50 @@ xx86_64
 xc
 xcom.apple.compilers.llvm.clang.1_0.compiler
 lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection88"Compile /Users/johansundhage/Documents/03_XCode/JSObjectPool/JSObjectPool/JSObjectPool.ce8164aa3edb8b741^317850a3edb8b741^---0#0#0#-19%DVTDocumentLocation2@96"file://localhost/Users/johansundhage/Documents/03_XCode/JSObjectPool/JSObjectPool/JSObjectPool.c0000000000000000^2910"CompileC build/JSObjectPool.build/Debug/JSObjectPool.build/Objects-normal/x86_64/JSObjectPool.o JSObjectPool/JSObjectPool.c normal x86_64 c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/johansundhage/Documents/03_XCode/JSObjectPool    setenv LANG en_US.US-ASCII    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x c -arch x86_64 -fmessage-length=0 -std=gnu99 -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wreturn-type -Wformat -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wempty-body -Wuninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wconstant-conversion -Wint-conversion -Wenum-conversion -Wshorten-64-to-32 -Wpointer-sign -Wno-newline-eof -DDEBUG=1 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.8.sdk -fasm-blocks -fstrict-aliasing -Wdeprecated-declarations -mmacosx-version-min=10.8 -g -Wno-sign-conversion -iquote /Users/johansundhage/Documents/03_XCode/JSObjectPool/build/JSObjectPool.build/Debug/JSObjectPool.build/JSObjectPool-generated-files.hmap -I/Users/johansundhage/Documents/03_XCode/JSObjectPool/build/JSObjectPool.build/Debug/JSObjectPool.build/JSObjectPool-own-target-headers.hmap -I/Users/johansundhage/Documents/03_XCode/JSObjectPool/build/JSObjectPool.build/Debug/JSObjectPool.build/JSObjectPool-all-target-headers.hmap -iquote /Users/johansundhage/Documents/03_XCode/JSObjectPool/build/JSObjectPool.build/Debug/JSObjectPool.build/JSObjectPool-project-headers.hmap -I/Users/johansundhage/Documents/03_XCode/JSObjectPool/build/Debug/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Users/johansundhage/Documents/03_XCode/JSObjectPool/build/JSObjectPool.build/Debug/JSObjectPool.build/DerivedSources/x86_64 -I/Users/johansundhage/Documents/03_XCode/JSObjectPool/build/JSObjectPool.build/Debug/JSObjectPool.build/DerivedSources -F/Users/johansundhage/Documents/03_XCode/JSObjectPool/build/Debug -MMD -MT dependencies -MF /Users/johansundhage/Documents/03_XCode/JSObjectPool/build/JSObjectPool.build/Debug/JSObjectPool.build/Objects-normal/x86_64/JSObjectPool.d --serialize-diagnostics /Users/johansundhage/Documents/03_XCode/JSObjectPool/build/JSObjectPool.build/Debug/JSObjectPool.build/Objects-normal/x86_64/JSObjectPool.dia -c /Users/johansundhage/Documents/03_XCode/JSObjectPool/JSObjectPool/JSObjectPool.c -o /Users/johansundhage/Documents/03_XCode/JSObjectPool/build/JSObjectPool.build/Debug/JSObjectPool.build/Objects-normal/x86_64/JSObjectPool.o36"7B8EA574-4AD8-4655-ACEE-CA6088463CDD-
+
+CCompileC build/JSObjectPool.build/Debug/JSObjectPool.build/Objects-normal/x86_64/main.o /Users/johansundhage/Documents/01_GIT_Code_Projects/JSObjectPool/JSObjectPool/main.c normal x86_64 c com.apple.compilers.llvm.clang.1_0.compiler
+s397997516.896258
+e397997516.923854
+r1
+xCompileC
+xbuild/JSObjectPool.build/Debug/JSObjectPool.build/Objects-normal/x86_64/main.o
+x/Users/johansundhage/Documents/01_GIT_Code_Projects/JSObjectPool/JSObjectPool/main.c
+xnormal
+xx86_64
+xc
+xcom.apple.compilers.llvm.clang.1_0.compiler
+o/Users/johansundhage/Documents/01_GIT_Code_Projects/JSObjectPool/JSObjectPool/main.c:64:14: warning: unused variable 'item16' [-Wunused-variable]
+o    thedata* item16 = jspool_get_item(pool);
+o             ^
+o/Users/johansundhage/Documents/01_GIT_Code_Projects/JSObjectPool/JSObjectPool/main.c:45:14: warning: unused variable 'item7' [-Wunused-variable]
+o    thedata* item7 = jspool_get_item(pool);
+o             ^
+o/Users/johansundhage/Documents/01_GIT_Code_Projects/JSObjectPool/JSObjectPool/main.c:55:14: warning: unused variable 'item12' [-Wunused-variable]
+o    thedata* item12 = jspool_get_item(pool);
+o             ^
+o/Users/johansundhage/Documents/01_GIT_Code_Projects/JSObjectPool/JSObjectPool/main.c:41:14: warning: unused variable 'item3' [-Wunused-variable]
+o    thedata* item3 = jspool_get_item(pool);
+o             ^
+o/Users/johansundhage/Documents/01_GIT_Code_Projects/JSObjectPool/JSObjectPool/main.c:52:14: warning: unused variable 'item9' [-Wunused-variable]
+o    thedata* item9 = jspool_get_item(pool);
+o             ^
+o/Users/johansundhage/Documents/01_GIT_Code_Projects/JSObjectPool/JSObjectPool/main.c:56:14: warning: unused variable 'item13' [-Wunused-variable]
+o    thedata* item13 = jspool_get_item(pool);
+o             ^
+o/Users/johansundhage/Documents/01_GIT_Code_Projects/JSObjectPool/JSObjectPool/main.c:53:14: warning: unused variable 'item10' [-Wunused-variable]
+o    thedata* item10 = jspool_get_item(pool);
+o             ^
+o/Users/johansundhage/Documents/01_GIT_Code_Projects/JSObjectPool/JSObjectPool/main.c:51:14: warning: unused variable 'item8' [-Wunused-variable]
+o    thedata* item8 = jspool_get_item(pool);
+o             ^
+o/Users/johansundhage/Documents/01_GIT_Code_Projects/JSObjectPool/JSObjectPool/main.c:54:14: warning: unused variable 'item11' [-Wunused-variable]
+o    thedata* item11 = jspool_get_item(pool);
+o             ^
+o/Users/johansundhage/Documents/01_GIT_Code_Projects/JSObjectPool/JSObjectPool/main.c:57:14: warning: unused variable 'item14' [-Wunused-variable]
+o    thedata* item14 = jspool_get_item(pool);
+o             ^
+o10 warnings generated.
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection92"Compile /Users/johansundhage/Documents/01_GIT_Code_Projects/JSObjectPool/JSObjectPool/main.c158de5ccf5b8b741^fa80ecccf5b8b741^-2075"/Users/johansundhage/Documents/01_GIT_Code_Projects/JSObjectPool/JSObjectPool/main.c:64:14: warning: unused variable 'item16' [-Wunused-variable]    thedata* item16 = jspool_get_item(pool);             ^/Users/johansundhage/Documents/01_GIT_Code_Projects/JSObjectPool/JSObjectPool/main.c:45:14: warning: unused variable 'item7' [-Wunused-variable]    thedata* item7 = jspool_get_item(pool);             ^/Users/johansundhage/Documents/01_GIT_Code_Projects/JSObjectPool/JSObjectPool/main.c:55:14: warning: unused variable 'item12' [-Wunused-variable]    thedata* item12 = jspool_get_item(pool);             ^/Users/johansundhage/Documents/01_GIT_Code_Projects/JSObjectPool/JSObjectPool/main.c:41:14: warning: unused variable 'item3' [-Wunused-variable]    thedata* item3 = jspool_get_item(pool);             ^/Users/johansundhage/Documents/01_GIT_Code_Projects/JSObjectPool/JSObjectPool/main.c:52:14: warning: unused variable 'item9' [-Wunused-variable]    thedata* item9 = jspool_get_item(pool);             ^/Users/johansundhage/Documents/01_GIT_Code_Projects/JSObjectPool/JSObjectPool/main.c:56:14: warning: unused variable 'item13' [-Wunused-variable]    thedata* item13 = jspool_get_item(pool);             ^/Users/johansundhage/Documents/01_GIT_Code_Projects/JSObjectPool/JSObjectPool/main.c:53:14: warning: unused variable 'item10' [-Wunused-variable]    thedata* item10 = jspool_get_item(pool);             ^/Users/johansundhage/Documents/01_GIT_Code_Projects/JSObjectPool/JSObjectPool/main.c:51:14: warning: unused variable 'item8' [-Wunused-variable]    thedata* item8 = jspool_get_item(pool);             ^/Users/johansundhage/Documents/01_GIT_Code_Projects/JSObjectPool/JSObjectPool/main.c:54:14: warning: unused variable 'item11' [-Wunused-variable]    thedata* item11 = jspool_get_item(pool);             ^/Users/johansundhage/Documents/01_GIT_Code_Projects/JSObjectPool/JSObjectPool/main.c:57:14: warning: unused variable 'item14' [-Wunused-variable]    thedata* item14 = jspool_get_item(pool);             ^10 warnings generated.10(36%IDEClangDiagnosticActivityLogMessage2@24"Unused variable 'item16'-397997516#18446744073709551615#0#-1#27"com.apple.dt.IDE.diagnostic23%DVTTextDocumentLocation3@100"file://localhost/Users/johansundhage/Documents/01_GIT_Code_Projects/JSObjectPool/JSObjectPool/main.c0000000000000000^63#13#63#13#1676#0#19"Unused Entity Issue--2@23"Unused variable 'item7'-397997516#18446744073709551615#0#-1#27"com.apple.dt.IDE.diagnostic3@100"file://localhost/Users/johansundhage/Documents/01_GIT_Code_Projects/JSObjectPool/JSObjectPool/main.c0000000000000000^44#13#44#13#992#0#19"Unused Entity Issue--2@24"Unused variable 'item12'-397997516#18446744073709551615#0#-1#27"com.apple.dt.IDE.diagnostic3@100"file://localhost/Users/johansundhage/Documents/01_GIT_Code_Projects/JSObjectPool/JSObjectPool/main.c0000000000000000^54#13#54#13#1381#0#19"Unused Entity Issue--2@23"Unused variable 'item3'-397997516#18446744073709551615#0#-1#27"com.apple.dt.IDE.diagnostic3@100"file://localhost/Users/johansundhage/Documents/01_GIT_Code_Projects/JSObjectPool/JSObjectPool/main.c0000000000000000^40#13#40#13#816#0#19"Unused Entity Issue--2@23"Unused variable 'item9'-397997516#18446744073709551615#0#-1#27"com.apple.dt.IDE.diagnostic3@100"file://localhost/Users/johansundhage/Documents/01_GIT_Code_Projects/JSObjectPool/JSObjectPool/main.c0000000000000000^51#13#51#13#1247#0#19"Unused Entity Issue--2@24"Unused variable 'item13'-397997516#18446744073709551615#0#-1#27"com.apple.dt.IDE.diagnostic3@100"file://localhost/Users/johansundhage/Documents/01_GIT_Code_Projects/JSObjectPool/JSObjectPool/main.c0000000000000000^55#13#55#13#1426#0#19"Unused Entity Issue--2@24"Unused variable 'item10'-397997516#18446744073709551615#0#-1#27"com.apple.dt.IDE.diagnostic3@100"file://localhost/Users/johansundhage/Documents/01_GIT_Code_Projects/JSObjectPool/JSObjectPool/main.c0000000000000000^52#13#52#13#1291#0#19"Unused Entity Issue--2@23"Unused variable 'item8'-397997516#18446744073709551615#0#-1#27"com.apple.dt.IDE.diagnostic3@100"file://localhost/Users/johansundhage/Documents/01_GIT_Code_Projects/JSObjectPool/JSObjectPool/main.c0000000000000000^50#13#50#13#1203#0#19"Unused Entity Issue--2@24"Unused variable 'item11'-397997516#18446744073709551615#0#-1#27"com.apple.dt.IDE.diagnostic3@100"file://localhost/Users/johansundhage/Documents/01_GIT_Code_Projects/JSObjectPool/JSObjectPool/main.c0000000000000000^53#13#53#13#1336#0#19"Unused Entity Issue--2@24"Unused variable 'item14'-397997516#18446744073709551615#0#-1#27"com.apple.dt.IDE.diagnostic3@100"file://localhost/Users/johansundhage/Documents/01_GIT_Code_Projects/JSObjectPool/JSObjectPool/main.c0000000000000000^56#13#56#13#1471#0#19"Unused Entity Issue--0#0#0#-19%DVTDocumentLocation4@100"file://localhost/Users/johansundhage/Documents/01_GIT_Code_Projects/JSObjectPool/JSObjectPool/main.c0000000000000000^3018"CompileC build/JSObjectPool.build/Debug/JSObjectPool.build/Objects-normal/x86_64/main.o JSObjectPool/main.c normal x86_64 c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/johansundhage/Documents/01_GIT_Code_Projects/JSObjectPool    setenv LANG en_US.US-ASCII    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x c -arch x86_64 -fmessage-length=0 -std=gnu99 -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wreturn-type -Wformat -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wempty-body -Wuninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wconstant-conversion -Wint-conversion -Wenum-conversion -Wshorten-64-to-32 -Wpointer-sign -Wno-newline-eof -DDEBUG=1 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.8.sdk -fasm-blocks -fstrict-aliasing -Wdeprecated-declarations -mmacosx-version-min=10.8 -g -Wno-sign-conversion -iquote /Users/johansundhage/Documents/01_GIT_Code_Projects/JSObjectPool/build/JSObjectPool.build/Debug/JSObjectPool.build/JSObjectPool-generated-files.hmap -I/Users/johansundhage/Documents/01_GIT_Code_Projects/JSObjectPool/build/JSObjectPool.build/Debug/JSObjectPool.build/JSObjectPool-own-target-headers.hmap -I/Users/johansundhage/Documents/01_GIT_Code_Projects/JSObjectPool/build/JSObjectPool.build/Debug/JSObjectPool.build/JSObjectPool-all-target-headers.hmap -iquote /Users/johansundhage/Documents/01_GIT_Code_Projects/JSObjectPool/build/JSObjectPool.build/Debug/JSObjectPool.build/JSObjectPool-project-headers.hmap -I/Users/johansundhage/Documents/01_GIT_Code_Projects/JSObjectPool/build/Debug/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Users/johansundhage/Documents/01_GIT_Code_Projects/JSObjectPool/build/JSObjectPool.build/Debug/JSObjectPool.build/DerivedSources/x86_64 -I/Users/johansundhage/Documents/01_GIT_Code_Projects/JSObjectPool/build/JSObjectPool.build/Debug/JSObjectPool.build/DerivedSources -F/Users/johansundhage/Documents/01_GIT_Code_Projects/JSObjectPool/build/Debug -MMD -MT dependencies -MF /Users/johansundhage/Documents/01_GIT_Code_Projects/JSObjectPool/build/JSObjectPool.build/Debug/JSObjectPool.build/Objects-normal/x86_64/main.d --serialize-diagnostics /Users/johansundhage/Documents/01_GIT_Code_Projects/JSObjectPool/build/JSObjectPool.build/Debug/JSObjectPool.build/Objects-normal/x86_64/main.dia -c /Users/johansundhage/Documents/01_GIT_Code_Projects/JSObjectPool/JSObjectPool/main.c -o /Users/johansundhage/Documents/01_GIT_Code_Projects/JSObjectPool/build/JSObjectPool.build/Debug/JSObjectPool.build/Objects-normal/x86_64/main.o36"089A1ABB-4864-40D6-AC6D-5A89A561C62A-
 
 CCompileC build/JSObjectPool.build/Debug/JSObjectPool.build/Objects-normal/x86_64/main.o /Users/johansundhage/Documents/03_XCode/JSObjectPool/JSObjectPool/main.c normal x86_64 c com.apple.compilers.llvm.clang.1_0.compiler
 s397995597.546616
@@ -153,6 +281,16 @@ o    thedata* item11 = jspool_get_item(pool);
 o             ^
 o10 warnings generated.
 lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection80"Compile /Users/johansundhage/Documents/03_XCode/JSObjectPool/JSObjectPool/main.c40148c4deeb8b741^92ad924deeb8b741^-1955"/Users/johansundhage/Documents/03_XCode/JSObjectPool/JSObjectPool/main.c:45:14: warning: unused variable 'item7' [-Wunused-variable]    thedata* item7 = jspool_get_item(pool);             ^/Users/johansundhage/Documents/03_XCode/JSObjectPool/JSObjectPool/main.c:52:14: warning: unused variable 'item9' [-Wunused-variable]    thedata* item9 = jspool_get_item(pool);             ^/Users/johansundhage/Documents/03_XCode/JSObjectPool/JSObjectPool/main.c:57:14: warning: unused variable 'item14' [-Wunused-variable]    thedata* item14 = jspool_get_item(pool);             ^/Users/johansundhage/Documents/03_XCode/JSObjectPool/JSObjectPool/main.c:55:14: warning: unused variable 'item12' [-Wunused-variable]    thedata* item12 = jspool_get_item(pool);             ^/Users/johansundhage/Documents/03_XCode/JSObjectPool/JSObjectPool/main.c:64:14: warning: unused variable 'item16' [-Wunused-variable]    thedata* item16 = jspool_get_item(pool);             ^/Users/johansundhage/Documents/03_XCode/JSObjectPool/JSObjectPool/main.c:56:14: warning: unused variable 'item13' [-Wunused-variable]    thedata* item13 = jspool_get_item(pool);             ^/Users/johansundhage/Documents/03_XCode/JSObjectPool/JSObjectPool/main.c:41:14: warning: unused variable 'item3' [-Wunused-variable]    thedata* item3 = jspool_get_item(pool);             ^/Users/johansundhage/Documents/03_XCode/JSObjectPool/JSObjectPool/main.c:53:14: warning: unused variable 'item10' [-Wunused-variable]    thedata* item10 = jspool_get_item(pool);             ^/Users/johansundhage/Documents/03_XCode/JSObjectPool/JSObjectPool/main.c:51:14: warning: unused variable 'item8' [-Wunused-variable]    thedata* item8 = jspool_get_item(pool);             ^/Users/johansundhage/Documents/03_XCode/JSObjectPool/JSObjectPool/main.c:54:14: warning: unused variable 'item11' [-Wunused-variable]    thedata* item11 = jspool_get_item(pool);             ^10 warnings generated.10(36%IDEClangDiagnosticActivityLogMessage2@23"Unused variable 'item7'-397995597#18446744073709551615#0#-1#27"com.apple.dt.IDE.diagnostic23%DVTTextDocumentLocation3@88"file://localhost/Users/johansundhage/Documents/03_XCode/JSObjectPool/JSObjectPool/main.c0000000000000000^44#13#44#13#992#0#19"Unused Entity Issue--2@23"Unused variable 'item9'-397995597#18446744073709551615#0#-1#27"com.apple.dt.IDE.diagnostic3@88"file://localhost/Users/johansundhage/Documents/03_XCode/JSObjectPool/JSObjectPool/main.c0000000000000000^51#13#51#13#1247#0#19"Unused Entity Issue--2@24"Unused variable 'item14'-397995597#18446744073709551615#0#-1#27"com.apple.dt.IDE.diagnostic3@88"file://localhost/Users/johansundhage/Documents/03_XCode/JSObjectPool/JSObjectPool/main.c0000000000000000^56#13#56#13#1471#0#19"Unused Entity Issue--2@24"Unused variable 'item12'-397995597#18446744073709551615#0#-1#27"com.apple.dt.IDE.diagnostic3@88"file://localhost/Users/johansundhage/Documents/03_XCode/JSObjectPool/JSObjectPool/main.c0000000000000000^54#13#54#13#1381#0#19"Unused Entity Issue--2@24"Unused variable 'item16'-397995597#18446744073709551615#0#-1#27"com.apple.dt.IDE.diagnostic3@88"file://localhost/Users/johansundhage/Documents/03_XCode/JSObjectPool/JSObjectPool/main.c0000000000000000^63#13#63#13#1676#0#19"Unused Entity Issue--2@24"Unused variable 'item13'-397995597#18446744073709551615#0#-1#27"com.apple.dt.IDE.diagnostic3@88"file://localhost/Users/johansundhage/Documents/03_XCode/JSObjectPool/JSObjectPool/main.c0000000000000000^55#13#55#13#1426#0#19"Unused Entity Issue--2@23"Unused variable 'item3'-397995597#18446744073709551615#0#-1#27"com.apple.dt.IDE.diagnostic3@88"file://localhost/Users/johansundhage/Documents/03_XCode/JSObjectPool/JSObjectPool/main.c0000000000000000^40#13#40#13#816#0#19"Unused Entity Issue--2@24"Unused variable 'item10'-397995597#18446744073709551615#0#-1#27"com.apple.dt.IDE.diagnostic3@88"file://localhost/Users/johansundhage/Documents/03_XCode/JSObjectPool/JSObjectPool/main.c0000000000000000^52#13#52#13#1291#0#19"Unused Entity Issue--2@23"Unused variable 'item8'-397995597#18446744073709551615#0#-1#27"com.apple.dt.IDE.diagnostic3@88"file://localhost/Users/johansundhage/Documents/03_XCode/JSObjectPool/JSObjectPool/main.c0000000000000000^50#13#50#13#1203#0#19"Unused Entity Issue--2@24"Unused variable 'item11'-397995597#18446744073709551615#0#-1#27"com.apple.dt.IDE.diagnostic3@88"file://localhost/Users/johansundhage/Documents/03_XCode/JSObjectPool/JSObjectPool/main.c0000000000000000^53#13#53#13#1336#0#19"Unused Entity Issue--0#0#0#-19%DVTDocumentLocation4@88"file://localhost/Users/johansundhage/Documents/03_XCode/JSObjectPool/JSObjectPool/main.c0000000000000000^2862"CompileC build/JSObjectPool.build/Debug/JSObjectPool.build/Objects-normal/x86_64/main.o JSObjectPool/main.c normal x86_64 c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/johansundhage/Documents/03_XCode/JSObjectPool    setenv LANG en_US.US-ASCII    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x c -arch x86_64 -fmessage-length=0 -std=gnu99 -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wreturn-type -Wformat -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wempty-body -Wuninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wconstant-conversion -Wint-conversion -Wenum-conversion -Wshorten-64-to-32 -Wpointer-sign -Wno-newline-eof -DDEBUG=1 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.8.sdk -fasm-blocks -fstrict-aliasing -Wdeprecated-declarations -mmacosx-version-min=10.8 -g -Wno-sign-conversion -iquote /Users/johansundhage/Documents/03_XCode/JSObjectPool/build/JSObjectPool.build/Debug/JSObjectPool.build/JSObjectPool-generated-files.hmap -I/Users/johansundhage/Documents/03_XCode/JSObjectPool/build/JSObjectPool.build/Debug/JSObjectPool.build/JSObjectPool-own-target-headers.hmap -I/Users/johansundhage/Documents/03_XCode/JSObjectPool/build/JSObjectPool.build/Debug/JSObjectPool.build/JSObjectPool-all-target-headers.hmap -iquote /Users/johansundhage/Documents/03_XCode/JSObjectPool/build/JSObjectPool.build/Debug/JSObjectPool.build/JSObjectPool-project-headers.hmap -I/Users/johansundhage/Documents/03_XCode/JSObjectPool/build/Debug/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Users/johansundhage/Documents/03_XCode/JSObjectPool/build/JSObjectPool.build/Debug/JSObjectPool.build/DerivedSources/x86_64 -I/Users/johansundhage/Documents/03_XCode/JSObjectPool/build/JSObjectPool.build/Debug/JSObjectPool.build/DerivedSources -F/Users/johansundhage/Documents/03_XCode/JSObjectPool/build/Debug -MMD -MT dependencies -MF /Users/johansundhage/Documents/03_XCode/JSObjectPool/build/JSObjectPool.build/Debug/JSObjectPool.build/Objects-normal/x86_64/main.d --serialize-diagnostics /Users/johansundhage/Documents/03_XCode/JSObjectPool/build/JSObjectPool.build/Debug/JSObjectPool.build/Objects-normal/x86_64/main.dia -c /Users/johansundhage/Documents/03_XCode/JSObjectPool/JSObjectPool/main.c -o /Users/johansundhage/Documents/03_XCode/JSObjectPool/build/JSObjectPool.build/Debug/JSObjectPool.build/Objects-normal/x86_64/main.o36"7CD0FC99-C26F-4958-9D00-68631B968FA1-
+
+CLd /Users/johansundhage/Documents/01_GIT_Code_Projects/JSObjectPool/build/Debug/JSObjectPool normal x86_64
+s397997859.595394
+e397997859.610409
+r1
+xLd
+x/Users/johansundhage/Documents/01_GIT_Code_Projects/JSObjectPool/build/Debug/JSObjectPool
+xnormal
+xx86_64
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection94"Link /Users/johansundhage/Documents/01_GIT_Code_Projects/JSObjectPool/build/Debug/JSObjectPool677f9823f7b8b741^a2439c23f7b8b741^---0#0#0#--824"Ld build/Debug/JSObjectPool normal x86_64    cd /Users/johansundhage/Documents/01_GIT_Code_Projects/JSObjectPool    setenv MACOSX_DEPLOYMENT_TARGET 10.8    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -arch x86_64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.8.sdk -L/Users/johansundhage/Documents/01_GIT_Code_Projects/JSObjectPool/build/Debug -F/Users/johansundhage/Documents/01_GIT_Code_Projects/JSObjectPool/build/Debug -filelist /Users/johansundhage/Documents/01_GIT_Code_Projects/JSObjectPool/build/JSObjectPool.build/Debug/JSObjectPool.build/Objects-normal/x86_64/JSObjectPool.LinkFileList -mmacosx-version-min=10.8 -o /Users/johansundhage/Documents/01_GIT_Code_Projects/JSObjectPool/build/Debug/JSObjectPool36"4885A370-3242-4BA9-9808-F9CA924E3731-
 
 CLd /Users/johansundhage/Documents/03_XCode/JSObjectPool/build/Debug/JSObjectPool normal x86_64
 s397995597.579978

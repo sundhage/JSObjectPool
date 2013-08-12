@@ -10,6 +10,7 @@
 		ED9EE9B417B8CFD6000A2BF5 /* main.c in Sources */ = {isa = PBXBuildFile; fileRef = ED9EE9B317B8CFD6000A2BF5 /* main.c */; };
 		ED9EE9B617B8CFD6000A2BF5 /* JSObjectPool.1 in CopyFiles */ = {isa = PBXBuildFile; fileRef = ED9EE9B517B8CFD6000A2BF5 /* JSObjectPool.1 */; };
 		ED9EE9C117B8DA0F000A2BF5 /* JSObjectPool.c in Sources */ = {isa = PBXBuildFile; fileRef = ED9EE9C017B8DA0F000A2BF5 /* JSObjectPool.c */; };
+		ED9EE9C417B8F5C9000A2BF5 /* JSHashmap.c in Sources */ = {isa = PBXBuildFile; fileRef = ED9EE9C217B8F5C9000A2BF5 /* JSHashmap.c */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -31,6 +32,8 @@
 		ED9EE9B517B8CFD6000A2BF5 /* JSObjectPool.1 */ = {isa = PBXFileReference; lastKnownFileType = text.man; path = JSObjectPool.1; sourceTree = "<group>"; };
 		ED9EE9BC17B8D000000A2BF5 /* JSObjectPool.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = JSObjectPool.h; sourceTree = "<group>"; };
 		ED9EE9C017B8DA0F000A2BF5 /* JSObjectPool.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = JSObjectPool.c; sourceTree = "<group>"; };
+		ED9EE9C217B8F5C9000A2BF5 /* JSHashmap.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = JSHashmap.c; path = JSHashmap/JSHashmap/JSHashmap.c; sourceTree = SOURCE_ROOT; };
+		ED9EE9C317B8F5C9000A2BF5 /* JSHashmap.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = JSHashmap.h; path = JSHashmap/JSHashmap/JSHashmap.h; sourceTree = SOURCE_ROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -63,6 +66,8 @@
 		ED9EE9B217B8CFD6000A2BF5 /* JSObjectPool */ = {
 			isa = PBXGroup;
 			children = (
+				ED9EE9C217B8F5C9000A2BF5 /* JSHashmap.c */,
+				ED9EE9C317B8F5C9000A2BF5 /* JSHashmap.h */,
 				ED9EE9B317B8CFD6000A2BF5 /* main.c */,
 				ED9EE9B517B8CFD6000A2BF5 /* JSObjectPool.1 */,
 				ED9EE9BC17B8D000000A2BF5 /* JSObjectPool.h */,
@@ -124,6 +129,7 @@
 			files = (
 				ED9EE9B417B8CFD6000A2BF5 /* main.c in Sources */,
 				ED9EE9C117B8DA0F000A2BF5 /* JSObjectPool.c in Sources */,
+				ED9EE9C417B8F5C9000A2BF5 /* JSHashmap.c in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -220,6 +226,7 @@
 				ED9EE9BB17B8CFD6000A2BF5 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
